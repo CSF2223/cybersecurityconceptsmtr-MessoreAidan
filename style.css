@@ -5,12 +5,12 @@ Ter #263159
 acc #251749
 */
 
- html {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box
- }
- 
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
 body {
     background-color: #251749;
     font-family: 'Open Sans', sans-serif;
@@ -24,15 +24,22 @@ header {
     margin: 1.2rem;
 }
 
+footer {
+    background-color: #FFFBEB;
+    margin: 1.2rem;
+    padding: 1.5rem;
+    font size: 0.55rem;
+
+}
+
 h1,
 h2 {
     text-align: center;
 }
 
 img {
- max-width: 100%;
- height: auto;
- border-radius: 2rem;
+    max-width: 100%;
+    height: auto;
 }
 
 li {
@@ -44,5 +51,39 @@ li {
     margin: 1.2rem;
     padding: 1.9rem;
     line-height: 2rem;
-    border-radius: 10px;
+    border-radius: 0px;
+}
+
+.post p {
+    text-indent: 1.2rem
+}
+
+.source {
+    letter-spacing: 1px;
+}
+
+.source a {
+    text-decoration: none;
+    color: #495579;
+}
+
+@media (min-width: 800px) {
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .post {
+        width: 25%;
+        font-size: 1.1rem;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 0.rem;
+    }
 }
