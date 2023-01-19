@@ -28,7 +28,7 @@ footer {
     background-color: #FFFBEB;
     margin: 1.2rem;
     padding: 1.5rem;
-    font size: 0.55rem;
+    font-size: 0.55rem;
 
 }
 
@@ -40,6 +40,7 @@ h2 {
 img {
     max-width: 100%;
     height: auto;
+    border-radius: 2rem;
 }
 
 li {
@@ -51,7 +52,6 @@ li {
     margin: 1.2rem;
     padding: 1.9rem;
     line-height: 2rem;
-    border-radius: 0px;
 }
 
 .post p {
@@ -66,6 +66,7 @@ li {
     text-decoration: none;
     color: #495579;
 }
+
 
 @media (min-width: 800px) {
     .gallery {
@@ -84,6 +85,14 @@ li {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        font-size: 0.rem;
+        font-size: 0.7rem;
+    }
+    
+    .source {
+        margin: 1rem;
+        /* while this line never was specified to be here 
+        by either the video or midterm outline the footer
+        got really cluttered with all the text so this
+        gives it some much-needed breathing room */
     }
 }
